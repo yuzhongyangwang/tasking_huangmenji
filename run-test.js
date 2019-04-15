@@ -21,5 +21,5 @@ var reporter = new JasmineConsoleReporter({
 });
 
 jasmine.addReporter(reporter);
-
+jasmine.loadConfigFile('spec/support/jasmine.json');
 jasmine.execute();
